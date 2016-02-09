@@ -1,0 +1,16 @@
+---
+- hosts: 127.0.0.1
+  remote_user: root
+  tasks:
+    - name: install git
+      apt:
+        pkg=git
+        force=yes
+        update_cache=yes
+      with_items:
+        - git
+        - vim
+    - name: fetch source code for location server
+      git: 
+        repo="https://github.com/whereat/whereat-location-server.git"
+        dest="/whereat-location-server"

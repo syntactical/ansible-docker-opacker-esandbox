@@ -1,0 +1,33 @@
+{
+	"provisioners": [
+		{
+			"type": "shell",
+			"execute_command": "echo 'vagrant' | {{.Vars}} sudo -S -E bash '{{.Path}}'",
+			"script": "scripts/install_ansible.sh"
+		},
+		{
+			"type": "shell",
+			"execute_command": "echo 'vagrant' | {{.Vars}} sudo -S -E bash '{{.Path}}'",
+			"script": "scripts/java_scala.sh"
+		},
+		{
+			"type": "ansible-local",
+			"playbook_file": "ansible/testing.yml"
+		}
+	],
+	"builders": [
+		{
+			"type": "docker",
+			"image": "ubuntu",
+			"commit": true
+		}
+	],
+	"post-processors": [
+		{
+			"type": "docker-tag",
+			"repository": "gregs-repo",
+			"tag": "latest",
+			"force": true
+		}
+	]
+}

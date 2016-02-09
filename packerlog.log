@@ -1,0 +1,126 @@
+2016/02/09 13:27:14 [INFO] Packer version: 0.8.6  f8f7b7a34c1be06058f5aca23a51247db12cdbc5+CHANGES
+2016/02/09 13:27:14 Packer Target OS/Arch: darwin amd64
+2016/02/09 13:27:14 Built with Go Version: go1.5
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: amazon-chroot = /Users/gdutcher/packer/packer-builder-amazon-chroot
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: amazon-ebs = /Users/gdutcher/packer/packer-builder-amazon-ebs
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: amazon-instance = /Users/gdutcher/packer/packer-builder-amazon-instance
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: digitalocean = /Users/gdutcher/packer/packer-builder-digitalocean
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: docker = /Users/gdutcher/packer/packer-builder-docker
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: file = /Users/gdutcher/packer/packer-builder-file
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: googlecompute = /Users/gdutcher/packer/packer-builder-googlecompute
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: null = /Users/gdutcher/packer/packer-builder-null
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: openstack = /Users/gdutcher/packer/packer-builder-openstack
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: parallels-iso = /Users/gdutcher/packer/packer-builder-parallels-iso
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: parallels-pvm = /Users/gdutcher/packer/packer-builder-parallels-pvm
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: qemu = /Users/gdutcher/packer/packer-builder-qemu
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: virtualbox-iso = /Users/gdutcher/packer/packer-builder-virtualbox-iso
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: virtualbox-ovf = /Users/gdutcher/packer/packer-builder-virtualbox-ovf
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: vmware-iso = /Users/gdutcher/packer/packer-builder-vmware-iso
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: vmware-vmx = /Users/gdutcher/packer/packer-builder-vmware-vmx
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: artifice = /Users/gdutcher/packer/packer-post-processor-artifice
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: atlas = /Users/gdutcher/packer/packer-post-processor-atlas
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: compress = /Users/gdutcher/packer/packer-post-processor-compress
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: docker-import = /Users/gdutcher/packer/packer-post-processor-docker-import
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: docker-push = /Users/gdutcher/packer/packer-post-processor-docker-push
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: docker-save = /Users/gdutcher/packer/packer-post-processor-docker-save
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: docker-tag = /Users/gdutcher/packer/packer-post-processor-docker-tag
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: vagrant = /Users/gdutcher/packer/packer-post-processor-vagrant
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: vagrant-cloud = /Users/gdutcher/packer/packer-post-processor-vagrant-cloud
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: vsphere = /Users/gdutcher/packer/packer-post-processor-vsphere
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: ansible-local = /Users/gdutcher/packer/packer-provisioner-ansible-local
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: chef-client = /Users/gdutcher/packer/packer-provisioner-chef-client
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: chef-solo = /Users/gdutcher/packer/packer-provisioner-chef-solo
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: file = /Users/gdutcher/packer/packer-provisioner-file
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: powershell = /Users/gdutcher/packer/packer-provisioner-powershell
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: puppet-masterless = /Users/gdutcher/packer/packer-provisioner-puppet-masterless
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: puppet-server = /Users/gdutcher/packer/packer-provisioner-puppet-server
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: salt-masterless = /Users/gdutcher/packer/packer-provisioner-salt-masterless
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: shell = /Users/gdutcher/packer/packer-provisioner-shell
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: shell-local = /Users/gdutcher/packer/packer-provisioner-shell-local
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: windows-restart = /Users/gdutcher/packer/packer-provisioner-windows-restart
+2016/02/09 13:27:14 [DEBUG] Discovered plugin: windows-shell = /Users/gdutcher/packer/packer-provisioner-windows-shell
+2016/02/09 13:27:14 Detected home directory from env var: /Users/gdutcher
+2016/02/09 13:27:14 Detected home directory from env var: /Users/gdutcher
+2016/02/09 13:27:14 Attempting to open config file: /Users/gdutcher/.packerconfig
+2016/02/09 13:27:14 [WARN] Config file doesn't exist: /Users/gdutcher/.packerconfig
+2016/02/09 13:27:14 Packer config: &{DisableCheckpoint:false DisableCheckpointSignature:false PluginMinPort:10000 PluginMaxPort:25000 Builders:map[parallels-pvm:/Users/gdutcher/packer/packer-builder-parallels-pvm openstack:/Users/gdutcher/packer/packer-builder-openstack qemu:/Users/gdutcher/packer/packer-builder-qemu vmware-iso:/Users/gdutcher/packer/packer-builder-vmware-iso vmware-vmx:/Users/gdutcher/packer/packer-builder-vmware-vmx docker:/Users/gdutcher/packer/packer-builder-docker amazon-instance:/Users/gdutcher/packer/packer-builder-amazon-instance null:/Users/gdutcher/packer/packer-builder-null parallels-iso:/Users/gdutcher/packer/packer-builder-parallels-iso virtualbox-ovf:/Users/gdutcher/packer/packer-builder-virtualbox-ovf amazon-ebs:/Users/gdutcher/packer/packer-builder-amazon-ebs digitalocean:/Users/gdutcher/packer/packer-builder-digitalocean file:/Users/gdutcher/packer/packer-builder-file googlecompute:/Users/gdutcher/packer/packer-builder-googlecompute virtualbox-iso:/Users/gdutcher/packer/packer-builder-virtualbox-iso amazon-chroot:/Users/gdutcher/packer/packer-builder-amazon-chroot] PostProcessors:map[artifice:/Users/gdutcher/packer/packer-post-processor-artifice atlas:/Users/gdutcher/packer/packer-post-processor-atlas compress:/Users/gdutcher/packer/packer-post-processor-compress docker-save:/Users/gdutcher/packer/packer-post-processor-docker-save docker-tag:/Users/gdutcher/packer/packer-post-processor-docker-tag vagrant:/Users/gdutcher/packer/packer-post-processor-vagrant vsphere:/Users/gdutcher/packer/packer-post-processor-vsphere docker-import:/Users/gdutcher/packer/packer-post-processor-docker-import docker-push:/Users/gdutcher/packer/packer-post-processor-docker-push vagrant-cloud:/Users/gdutcher/packer/packer-post-processor-vagrant-cloud] Provisioners:map[puppet-masterless:/Users/gdutcher/packer/packer-provisioner-puppet-masterless puppet-server:/Users/gdutcher/packer/packer-provisioner-puppet-server windows-shell:/Users/gdutcher/packer/packer-provisioner-windows-shell powershell:/Users/gdutcher/packer/packer-provisioner-powershell chef-client:/Users/gdutcher/packer/packer-provisioner-chef-client chef-solo:/Users/gdutcher/packer/packer-provisioner-chef-solo file:/Users/gdutcher/packer/packer-provisioner-file salt-masterless:/Users/gdutcher/packer/packer-provisioner-salt-masterless shell:/Users/gdutcher/packer/packer-provisioner-shell shell-local:/Users/gdutcher/packer/packer-provisioner-shell-local windows-restart:/Users/gdutcher/packer/packer-provisioner-windows-restart ansible-local:/Users/gdutcher/packer/packer-provisioner-ansible-local]}
+2016/02/09 13:27:14 Setting cache directory: /Users/gdutcher/projects-home/ansible-location-server/packer_cache
+2016/02/09 13:27:14 Detected home directory from env var: /Users/gdutcher
+2016/02/09 13:27:14 Loading builder: docker
+2016/02/09 13:27:14 Creating plugin client for path: /Users/gdutcher/packer/packer-builder-docker
+2016/02/09 13:27:14 Starting plugin: /Users/gdutcher/packer/packer-builder-docker []string{"/Users/gdutcher/packer/packer-builder-docker"}
+2016/02/09 13:27:14 Waiting for RPC address for: /Users/gdutcher/packer/packer-builder-docker
+2016/02/09 13:27:14 packer-builder-docker: 2016/02/09 13:27:14 Plugin minimum port: 10000
+2016/02/09 13:27:14 packer-builder-docker: 2016/02/09 13:27:14 Plugin maximum port: 25000
+2016/02/09 13:27:14 packer-builder-docker: 2016/02/09 13:27:14 Plugin address: unix /Users/gdutcher/tmp/packer-plugin015680235
+2016/02/09 13:27:14 packer-builder-docker: 2016/02/09 13:27:14 Waiting for connection...
+2016/02/09 13:27:14 packer-builder-docker: 2016/02/09 13:27:14 Serving a plugin connection...
+2016/02/09 13:27:14 Loading provisioner: shell
+2016/02/09 13:27:14 Creating plugin client for path: /Users/gdutcher/packer/packer-provisioner-shell
+2016/02/09 13:27:14 Starting plugin: /Users/gdutcher/packer/packer-provisioner-shell []string{"/Users/gdutcher/packer/packer-provisioner-shell"}
+2016/02/09 13:27:14 Waiting for RPC address for: /Users/gdutcher/packer/packer-provisioner-shell
+2016/02/09 13:27:14 packer-provisioner-shell: 2016/02/09 13:27:14 Plugin minimum port: 10000
+2016/02/09 13:27:14 packer-provisioner-shell: 2016/02/09 13:27:14 Plugin maximum port: 25000
+2016/02/09 13:27:14 packer-provisioner-shell: 2016/02/09 13:27:14 Plugin address: unix /Users/gdutcher/tmp/packer-plugin064829288
+2016/02/09 13:27:14 packer-provisioner-shell: 2016/02/09 13:27:14 Waiting for connection...
+2016/02/09 13:27:14 packer-provisioner-shell: 2016/02/09 13:27:14 Serving a plugin connection...
+2016/02/09 13:27:14 Loading provisioner: shell
+2016/02/09 13:27:14 Creating plugin client for path: /Users/gdutcher/packer/packer-provisioner-shell
+2016/02/09 13:27:14 Starting plugin: /Users/gdutcher/packer/packer-provisioner-shell []string{"/Users/gdutcher/packer/packer-provisioner-shell"}
+2016/02/09 13:27:14 Waiting for RPC address for: /Users/gdutcher/packer/packer-provisioner-shell
+2016/02/09 13:27:14 packer-provisioner-shell: 2016/02/09 13:27:14 Plugin minimum port: 10000
+2016/02/09 13:27:14 packer-provisioner-shell: 2016/02/09 13:27:14 Plugin maximum port: 25000
+2016/02/09 13:27:14 packer-provisioner-shell: 2016/02/09 13:27:14 Plugin address: unix /Users/gdutcher/tmp/packer-plugin726969325
+2016/02/09 13:27:14 packer-provisioner-shell: 2016/02/09 13:27:14 Waiting for connection...
+2016/02/09 13:27:14 packer-provisioner-shell: 2016/02/09 13:27:14 Serving a plugin connection...
+2016/02/09 13:27:14 Loading provisioner: ansible-local
+2016/02/09 13:27:14 Creating plugin client for path: /Users/gdutcher/packer/packer-provisioner-ansible-local
+2016/02/09 13:27:14 Starting plugin: /Users/gdutcher/packer/packer-provisioner-ansible-local []string{"/Users/gdutcher/packer/packer-provisioner-ansible-local"}
+2016/02/09 13:27:14 Waiting for RPC address for: /Users/gdutcher/packer/packer-provisioner-ansible-local
+2016/02/09 13:27:14 packer-provisioner-ansible-local: 2016/02/09 13:27:14 Plugin minimum port: 10000
+2016/02/09 13:27:14 packer-provisioner-ansible-local: 2016/02/09 13:27:14 Plugin maximum port: 25000
+2016/02/09 13:27:14 packer-provisioner-ansible-local: 2016/02/09 13:27:14 Plugin address: unix /Users/gdutcher/tmp/packer-plugin444746673
+2016/02/09 13:27:14 packer-provisioner-ansible-local: 2016/02/09 13:27:14 Waiting for connection...
+2016/02/09 13:27:14 packer-provisioner-ansible-local: 2016/02/09 13:27:14 Serving a plugin connection...
+2016/02/09 13:27:14 Loading post-processor: docker-tag
+2016/02/09 13:27:14 Creating plugin client for path: /Users/gdutcher/packer/packer-post-processor-docker-tag
+2016/02/09 13:27:14 Starting plugin: /Users/gdutcher/packer/packer-post-processor-docker-tag []string{"/Users/gdutcher/packer/packer-post-processor-docker-tag"}
+2016/02/09 13:27:14 Waiting for RPC address for: /Users/gdutcher/packer/packer-post-processor-docker-tag
+2016/02/09 13:27:14 packer-post-processor-docker-tag: 2016/02/09 13:27:14 Plugin minimum port: 10000
+2016/02/09 13:27:14 packer-post-processor-docker-tag: 2016/02/09 13:27:14 Plugin maximum port: 25000
+2016/02/09 13:27:14 packer-post-processor-docker-tag: 2016/02/09 13:27:14 Plugin address: unix /Users/gdutcher/tmp/packer-plugin248829659
+2016/02/09 13:27:14 packer-post-processor-docker-tag: 2016/02/09 13:27:14 Waiting for connection...
+2016/02/09 13:27:14 packer-post-processor-docker-tag: 2016/02/09 13:27:14 Serving a plugin connection...
+2016/02/09 13:27:14 ui: [1;32mdocker output will be in this color.[0m
+2016/02/09 13:27:14 ui: 
+2016/02/09 13:27:14 Build debug mode: false
+2016/02/09 13:27:14 Force build: false
+2016/02/09 13:27:14 Preparing build: docker
+2016/02/09 13:27:14 Waiting on builds to complete...
+2016/02/09 13:27:14 Starting build run: docker
+2016/02/09 13:27:14 Running builder: docker
+2016/02/09 13:27:14 packer-builder-docker: 2016/02/09 13:27:14 [DEBUG] Docker version: 1.9.1
+2016/02/09 13:27:14 packer-builder-docker: 2016/02/09 13:27:14 [DEBUG] Container will be committed
+2016/02/09 13:27:14 ui: [1;32m==> docker: Creating a temporary directory for sharing data...[0m
+2016/02/09 13:27:14 ui: [1;32m==> docker: Pulling Docker image: ubuntu[0m
+2016/02/09 13:27:14 packer-builder-docker: 2016/02/09 13:27:14 Executing: /usr/local/bin/docker [pull ubuntu]
+2016/02/09 13:27:15 ui: [0;32m    docker: Using default tag: latest[0m
+2016/02/09 13:27:18 Closing stdin because interrupt received.
+2016/02/09 13:27:18 Stopping build: docker
+2016/02/09 13:27:18 packer-provisioner-shell: 2016/02/09 13:27:18 Received interrupt signal (count: 1). Ignoring.
+2016/02/09 13:27:18 packer-provisioner-shell: 2016/02/09 13:27:18 Received interrupt signal (count: 1). Ignoring.
+2016/02/09 13:27:18 packer-post-processor-docker-tag: 2016/02/09 13:27:18 Received interrupt signal (count: 1). Ignoring.
+2016/02/09 13:27:18 packer-builder-docker: 2016/02/09 13:27:18 Received interrupt signal (count: 1). Ignoring.
+2016/02/09 13:27:18 packer-provisioner-ansible-local: 2016/02/09 13:27:18 Received interrupt signal (count: 1). Ignoring.
+2016/02/09 13:27:18 packer-builder-docker: 2016/02/09 13:27:18 Cancelling the step runner...
+2016/02/09 13:27:18 ui error: [1;31m==> docker: Error pulling Docker image: Bad exit status: 2[0m
+2016/02/09 13:27:18 Build cancelled: docker
+2016/02/09 13:27:18 ui error: [1;31mBuild 'docker' errored: Error pulling Docker image: Bad exit status: 2[0m
+2016/02/09 13:27:18 Builds completed. Waiting on interrupt barrier...
+2016/02/09 13:27:18 ui: Cleanly cancelled builds after being interrupted.
+2016/02/09 13:27:18 waiting for all plugin processes to complete...
+2016/02/09 13:27:18 /Users/gdutcher/packer/packer-builder-docker: plugin process exited
+2016/02/09 13:27:18 /Users/gdutcher/packer/packer-provisioner-shell: plugin process exited
+2016/02/09 13:27:18 /Users/gdutcher/packer/packer-provisioner-ansible-local: plugin process exited
+2016/02/09 13:27:18 /Users/gdutcher/packer/packer-post-processor-docker-tag: plugin process exited
+2016/02/09 13:27:18 /Users/gdutcher/packer/packer-provisioner-shell: plugin process exited
